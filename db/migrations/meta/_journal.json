@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1779468437288,
+      "tag": "0000_true_carlie_cooper",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1779473973826,
+      "tag": "0001_third_krista_starr",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1779475000000,
+      "tag": "0002_ptbr_enum_values",
+      "breakpoints": true
+    }
+  ]
+}
