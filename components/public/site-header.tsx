@@ -1,6 +1,7 @@
 import { Code2 } from "lucide-react";
 import Link from "next/link";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { MobileMenu } from "@/components/public/mobile-menu";
 
 const links = [
   { href: "/sobre", label: "Sobre" },
@@ -33,13 +34,14 @@ export function SiteHeader() {
           <a
             href="https://github.com/Agnaldokorb"
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
             aria-label="GitHub de Agnaldo Korb"
             className="inline-flex size-10 items-center justify-center rounded-md border bg-card transition hover:border-primary hover:text-primary"
           >
             <Code2 className="size-4" />
           </a>
           <ThemeToggle />
+          <MobileMenu links={links} />
         </div>
       </div>
     </header>

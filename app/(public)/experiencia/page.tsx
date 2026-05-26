@@ -25,7 +25,7 @@ export default function ExperiencePage() {
       <SectionHeading
         eyebrow="Experiencia"
         title="Entrega ponta a ponta"
-        description="Da concepcao tecnica ao deploy, com foco em clareza, manutenibilidade e resultado."
+        description="Da concepcão tecnica ao deploy, com foco em clareza, manutenibilidade e resultado."
       />
       <div className="mt-10 grid gap-5 md:grid-cols-3">
         {items.map((item) => (

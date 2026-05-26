@@ -52,7 +52,7 @@ export default async function HomePage() {
               </Link>
             </div>
           </div>
-          <div className="grid gap-3">
+          <div className="grid gap-3 ">
             <div className="overflow-hidden rounded-lg border bg-card">
               <Image
                 src="https://github.com/Agnaldokorb.png"

@@ -15,7 +15,7 @@ export function SiteFooter() {
           <a
             href="https://github.com/Agnaldokorb"
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer noopener"
             className="hover:text-primary"
           >
             GitHub
