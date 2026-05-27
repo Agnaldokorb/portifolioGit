@@ -59,7 +59,7 @@ export default async function HomePage() {
               width={640}
               height={640}
               priority
-              className="aspect-16/10 w-full object-cover"
+              className="aspect-16/12 w-full object-cover"
             />
           </div>
           <div className="grid gap-3 md:col-span-2 md:grid-cols-3">
