@@ -1,4 +1,4 @@
-import { ArrowRight, Code2, Database, ShieldCheck } from "lucide-react";
+import { ArrowRight, Database, MonitorCloud, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { ProjectCard } from "@/components/public/project-card";
@@ -59,25 +59,25 @@ export default async function HomePage() {
               width={640}
               height={640}
               priority
-              className="aspect-[16/10] w-full object-cover"
+              className="aspect-16/10 w-full object-cover"
             />
           </div>
           <div className="grid gap-3 md:col-span-2 md:grid-cols-3">
             {[
               {
-                icon: Code2,
+                icon: MonitorCloud,
                 title: "Frontend moderno",
-                text: "React, Next.js, TypeScript e UI responsiva.",
+                text: "React, Next.js, TypeScript, Tailwind CSS e SEO.",
               },
               {
                 icon: Database,
                 title: "Backend consistente",
-                text: "Node.js, PostgreSQL, Supabase e integracoes.",
+                text: "Node.js, TypeScript, PostgreSQL, Supabase e integrações.",
               },
               {
                 icon: ShieldCheck,
                 title: "Produto seguro",
-                text: "Validacao, RLS, auth e boas praticas de deploy.",
+                text: "Validação, RLS, auth e boas práticas.",
               },
             ].map((item) => (
               <div key={item.title} className="rounded-lg border bg-card p-5">
