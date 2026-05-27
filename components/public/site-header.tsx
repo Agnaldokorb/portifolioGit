@@ -1,4 +1,4 @@
-import { Code2 } from "lucide-react";
+import { GitFork  } from "lucide-react";
 import Link from "next/link";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MobileMenu } from "@/components/public/mobile-menu";
@@ -36,9 +36,9 @@ export function SiteHeader() {
             target="_blank"
             rel="noreferrer noopener"
             aria-label="GitHub de Agnaldo Korb"
-            className="inline-flex size-10 items-center justify-center rounded-md border bg-card transition hover:border-primary hover:text-primary"
+            className="p-2 inline-flex size items-center justify-center rounded-md border bg-card transition hover:border-primary hover:text-primary"
           >
-            <Code2 className="size-4" />
+            <GitFork className="size-4" /> GitHub
           </a>
           <ThemeToggle />
           <MobileMenu links={links} />
