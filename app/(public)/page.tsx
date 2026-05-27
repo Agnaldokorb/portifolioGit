@@ -26,7 +26,7 @@ export default async function HomePage() {
   return (
     <>
       <section className="border-b">
-        <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-[1.2fr_0.8fr] md:py-24">
+        <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 md:grid-cols-[1.15fr_0.85fr] md:py-24">
           <div>
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.16em] text-primary">
               {profile.headline}
@@ -52,17 +52,17 @@ export default async function HomePage() {
               </Link>
             </div>
           </div>
-          <div className="grid gap-3 ">
-            <div className="overflow-hidden rounded-lg border bg-card">
-              <Image
-                src="https://github.com/Agnaldokorb.png"
-                alt="Avatar publico de Agnaldo Korb no GitHub"
-                width={640}
-                height={640}
-                priority
-                className="aspect-[16/10] w-full object-cover"
-              />
-            </div>
+          <div className="overflow-hidden rounded-lg border bg-card">
+            <Image
+              src="https://github.com/Agnaldokorb.png"
+              alt="Avatar publico de Agnaldo Korb no GitHub"
+              width={640}
+              height={640}
+              priority
+              className="aspect-[16/10] w-full object-cover"
+            />
+          </div>
+          <div className="grid gap-3 md:col-span-2 md:grid-cols-3">
             {[
               {
                 icon: Code2,
